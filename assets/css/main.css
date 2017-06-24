@@ -1,0 +1,419 @@
+body {
+    margin: 0 auto;
+    padding: 0! important;
+    height: 100vh;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    font-family: 'Changa', sans-serif;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+a {
+    color: #3b5998;
+    text-decoration: none;
+}
+.container {
+    margin: 0 auto! important;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+}
+.logo {
+    display: block;
+    margin: auto;
+    padding: 0;
+    margin-top: 16vh;
+    margin-bottom: 23vh;
+}
+.logo img {
+    width: 160px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.search {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+input#search {
+    width: 390px;
+    height: 32px;
+    border: 0;
+    border-radius: 1px;
+    font-size: 13px;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding: 0 0px 0 10px;
+    font-family: changa;
+}
+.search i {
+    color: #000;
+    font-size: 21px;
+    position: absolute;
+    margin-left: 43vh;
+    margin-top: -3px;
+}
+.login {
+    margin: 0 auto !important;
+    background: #fff;
+    width: 402px;
+    height: 410px;
+}
+.login input {
+    width: 73%;
+    margin: 10px auto! important;
+    display: block;
+    height: 35px;
+    border-radius: 3px;
+    padding: 0px 0 0px 40px;
+    font-family: changa;
+    text-transform: uppercase;
+    border: 2.6px solid #D2D2D2;
+} 
+.login p {
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3vh;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.login label i {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 3px;
+}
+.check {
+    margin-left: 23px;
+}
+.check label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -7px;
+    font-family: changa;
+    text-transform: uppercase;
+    width: 310px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.check_login {
+    margin-left: 23px;
+}
+.check_login label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: -7px;
+    font-family: changa;
+    text-transform: uppercase;
+    width: 310px;
+    line-height: 22px;
+    margin-top: 2px;
+}
+.login_btn {
+    margin-top: -36px;
+    float: right;
+    margin-right: 32px;
+}
+.login_btn button {
+    background: #3b5998;
+    width: 88px;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-family: changa;
+    font-size: 16px;
+    font-weight: 900;
+}
+.login_btn button:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.or {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 83%;
+    margin: 0 auto! important;
+    padding-top: 1.5vh;
+}
+.or > span {
+    position: relative;
+    display: inline-block;
+}
+
+.or > span:before,
+.or > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #DADADA;
+}
+
+.or > span:before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.or > span:after {
+    left: 100%;
+    margin-left: 10px;
+}
+p#signup {
+    margin-top: -2vh;
+}
+.signup_btn {
+    margin-top: 1vh;
+}
+.signup_btn button {
+    background: #108800;
+    width: 84%;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-family: changa;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0 auto! important;
+    display: block;
+}
+.signup_btn button:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+p#signin {
+    margin-top: -2vh;
+}
+.signin_btn {
+    margin-top: 1vh;
+    margin-bottom: 1.3vh;
+}
+.signin_btn button {
+    background: #3b5998;
+    width: 84%;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-family: changa;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0 auto! important;
+    display: block;
+}
+.signin_btn button:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.forget {
+    margin-top: -2.6vh;
+    text-align: center;
+}
+.forget p {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+.forget p a {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+footer#footer {
+    background: rgba(255, 255, 255, 0.48);
+    height: 50px;
+    margin-top: 82px;
+}
+footer#footer p {
+    text-align: center;
+    color: #030317;
+    padding-top: 10px;
+}
+footer#footer p a {
+    color: #0B1E5A;
+    text-decoration: none;
+}
+footer#footer_login {
+    background: rgba(255, 255, 255, 0.48);
+    height: 50px;
+    margin-top: 152px;
+}
+footer#footer_login p {
+    text-align: center;
+    color: #030317;
+    padding-top: 10px;
+}
+footer#footer_login p a {
+    color: #0B1E5A;
+    text-decoration: none;
+}
+footer#footer_forget {
+    background: rgba(255, 255, 255, 0.48);
+    height: 50px;
+    margin-top: 162px;
+}
+footer#footer_forget p {
+    text-align: center;
+    color: #030317;
+    padding-top: 10px;
+}
+footer#footer_forget p a {
+    color: #0B1E5A;
+    text-decoration: none;
+}
+.signup {
+    margin: 0 auto !important;
+    background: #fff;
+    width: 402px;
+    height: 480px;
+}
+.signup p {
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3vh;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.signup input {
+    width: 73%;
+    display: block;
+    height: 35px;
+    border-radius: 3px;
+    padding: 0px 0 0px 40px;
+    font-family: changa;
+    text-transform: uppercase;
+    border: 2.6px solid #D2D2D2;
+} 
+.signup label i {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 3px;
+}
+.signup label {
+    
+}
+input#name1 {
+    width: 29.5%;
+    float: left;
+    margin-left: 33px;
+}
+input#name2 {
+    width: 29.5%;
+    float: right;
+    margin-right: 33px;
+    margin-bottom: 10px;
+}
+#name1-i {
+    margin-left: 48px;
+    margin-top: 3px;
+}
+#name2-i {
+    margin-left: 28px;
+    margin-top: 3px;
+}
+input#email {
+    margin: 10px auto! important;
+    width: 73%;
+}
+#email-i {
+    margin-left: -146px;
+    margin-top: 51px;
+}
+#email-i_comfirm {
+    margin-left: 49px;
+    margin-top: 3px;
+}
+input#password {
+    width: 29.5%;
+    float: left;
+    margin-left: 33px;
+}
+i#password {
+    margin-left: 50px;
+    margin-top: 3px;
+}
+input#password_confirm {
+    width: 29.5%;
+    float: right;
+    margin-right: 33px;
+    margin-bottom: -10px;
+}
+i#password_confirm {
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.forget_box {
+    margin: 0 auto !important;
+    background: #fff;
+    width: 402px;
+    height: 400px;
+}
+.forget_box p {
+    text-align: center;
+    font-weight: 900;
+    padding-top: 3vh;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    color: #000;
+}
+.alert {
+    background: #FF3E3E;
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 3px;
+    height: 80px;
+    margin-top: -1vh;
+    margin-bottom: 2vh;
+}
+.alert p {
+    color: #fff;
+    line-height: 24px;
+    padding-top: 2vh;
+    font-size: 14px;
+}
+.forget_box input {
+    width: 73%;
+    margin: 10px auto! important;
+    display: block;
+    height: 35px;
+    border-radius: 3px;
+    padding: 0px 0 0px 40px;
+    font-family: changa;
+    text-transform: uppercase;
+    border: 2.6px solid #D2D2D2;
+} 
+.forget_box label i {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 48px;
+    margin-top: 3px;
+}
+.forget_btn {
+    margin-top: -36px;
+    float: right;
+    margin-right: 32px;
+}
+.forget_btn button {
+    background: rgb(38, 104, 255);
+    width: 88px;
+    height: 35px;
+    border-radius: 3px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-family: changa;
+    font-size: 16px;
+    font-weight: 900;
+}
+.forget_btn button:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
